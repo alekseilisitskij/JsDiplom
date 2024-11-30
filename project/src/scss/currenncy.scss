@@ -1,0 +1,208 @@
+.currency__title {
+  margin-bottom: 56px;
+}
+
+.currency {
+  display: grid;
+  grid-template-columns: 587px 1fr;
+  gap: 45px;
+  margin-bottom: 25px;
+}
+
+.currency__your {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 50px;
+  border-radius: 50px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+}
+
+.currency__subtitle {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.currency__item_wallet {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.currency__name {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
+
+.currency__summa {
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+}
+
+.currency__dot {
+  width: 100%;
+  border-bottom: 1px dashed black;
+  line-height: 1px;
+  margin-bottom: 5px;
+}
+
+.currency__summa {
+  position: relative;
+}
+
+.change__course {
+  position: relative;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding: 50px;
+  border-radius: 50px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  background: #e5e5e5;
+}
+
+.currency__item_course {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.currency__couple-name_course {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
+
+.currency__dot_course {
+  width: 100%;
+  border-bottom: 1px dashed black;
+  line-height: 1px;
+  margin-bottom: 5px;
+}
+
+.currency__dot_course-red {
+  border-bottom: 1px dashed rgb(250, 11, 11);
+}
+
+.currency__dot_course-green {
+  border-bottom: 1px dashed rgb(25, 216, 14);
+}
+
+.currency__summa_course {
+  position: relative;
+  padding-right: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+}
+
+.currency__summa_course::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+
+.currency__summa_course.bottom::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid red;
+}
+
+.currency__summa_course.top::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid rgb(0, 255, 21);
+}
+
+.currency__exchange {
+  padding: 50px;
+  max-width: 587px;
+  border-radius: 50px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+}
+
+.block__form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.currency__block-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.currency__label {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  margin-right: 12px;
+}
+
+.currency__select {
+  width: 140px;
+  border: 1px solid #9ca3af;
+  border-radius: 7px;
+  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.currency__block-form_input {
+  width: 81%;
+  border: 1px solid #9ca3af;
+  border-radius: 7px;
+  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.currency__form {
+  width: 356px;
+}
+
+.currency__btn {
+  border-radius: 7px;
+  padding: 39px 13px;
+  background: #116acc;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.currency__block-error {
+  display: none;
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.map__title {
+  margin-bottom: 56px;
+}

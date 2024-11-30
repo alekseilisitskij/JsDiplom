@@ -1,0 +1,178 @@
+.btn__group {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #116acc;
+  border: 2px solid #116acc;
+  border-radius: 7px;
+  padding: 14px 24px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  &_cashMashina {
+    max-width: 134px;
+  }
+  &_accounts {
+    max-width: 92px;
+  }
+  &_currency {
+    max-width: 106px;
+  }
+  &_exit {
+    max-width: 98px;
+  }
+  &:hover {
+    background-color: #a0c3ff;
+  }
+}
+.buttons-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+.hero {
+  margin-bottom: 50px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__form {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+  }
+  &__label {
+    font-weight: 700;
+    font-size: 34px;
+    color: #000;
+    vertical-align: middle;
+  }
+  &__btn {
+    border-radius: 7px;
+    padding: 10px 17px;
+    background: #116acc;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+  }
+}
+.choices {
+  width: 300px;
+}
+
+.choices {
+  border-radius: 7px 7px 0 0;
+  background-color: white;
+}
+
+.choices__inner {
+  background-color: white;
+  border: 1px solid #116acc;
+  border-radius: 7px;
+}
+
+.is-open .choices__inner {
+  border-radius: 7px;
+}
+
+.is-focused .choices__inner,
+.is-open .choices__inner {
+  border: 1px solid #116acc;
+}
+
+.choices__list {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+// .choices__list--dropdown .choices__item--selectable::after,
+// .choices__list[aria-expanded] .choices__item--selectable::after {
+//   background-image: url(../Vector.svg);
+// }
+
+.choices__list--dropdown,
+.choices__list[aria-expanded] {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  top: calc(100% + 5px);
+  border-radius: 7px;
+}
+
+.choices__placeholder {
+  opacity: 1;
+}
+
+.choices__list--dropdown .choices__placeholder {
+  display: none;
+}
+
+.choices__list--dropdown .choices__item--selectable.is-highlighted,
+.choices__list[aria-expanded] .choices__item--selectable.is-highlighted {
+  background-color: #a0c3ff;
+}
+
+.accounts__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.accounts__item {
+  max-width: 400px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  &_left {
+    max-width: 200px;
+  }
+}
+.accounts__subtitle {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 18px;
+  color: #182233;
+  margin-bottom: 9px;
+}
+.accounts__price {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  color: #182233;
+  margin-bottom: 35px;
+}
+.accounts__descr {
+  display: block;
+  font-family: var(--second-family);
+  font-weight: 400;
+  color: #000;
+  &_text {
+    font-family: var(--second-family);
+    font-weight: 700;
+    color: #000;
+  }
+}
+.accounts__item {
+  padding: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.accounts__right {
+  display: flex;
+}
+.accounts__btn {
+  align-self: flex-end;
+  border-radius: 7px;
+  padding: 16px 24px;
+  background: #116acc;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+@media (max-width: 1100px) {
+  .accounts__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

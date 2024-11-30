@@ -1,0 +1,209 @@
+.hero__container-account {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero__block-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.hero__title {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 34px;
+  color: #000;
+}
+
+.hero__block-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.hero__subtitle {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 34px;
+  letter-spacing: -0.02em;
+  color: #000;
+}
+
+.hero__balance {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+}
+
+.hero__balance_span {
+  padding-left: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+}
+
+.translation__block-left {
+  padding: 25px 50px;
+  max-width: 606px;
+  background-color: #f3f4f6;
+  border-radius: 50px;
+}
+
+.translation {
+  margin-bottom: 50px;
+}
+
+.translation__subtitle {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.translation__input-block {
+  text-align: end;
+  margin-bottom: 25px;
+}
+
+.translation__link {
+  cursor: pointer;
+}
+
+.translation__label {
+  font-weight: 500;
+  font-size: 16px;
+  color: #182233;
+  margin-right: 18px;
+}
+
+.translation__input-send {
+  border: 1px solid #9ca3af;
+  border-radius: 7px;
+  padding: 14px 16px;
+  width: 299px;
+  background-color: #fff;
+}
+
+.translation__btn {
+  display: block;
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 16px 24px;
+  background-color: #116acc;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #fff;
+}
+
+.translation__btn span {
+  font-size: 24px;
+}
+
+.translation__block-right {
+  position: relative;
+  padding: 25px 50px;
+  display: block;
+  width: 684px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.translation__container {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.history__container {
+  padding-top: 25px;
+  padding-bottom: 66px;
+  background-color: #f3f4f6;
+  border-radius: 56px;
+}
+
+.history__title {
+  margin: 0;
+  padding: 0;
+}
+
+.history__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Стиль заголовков таблицы */
+.history__table thead tr {
+  border-collapse: separate; /* Позволяет использовать border-radius */
+  font-size: 18px;
+  width: 1229px;
+  height: 64px;
+  background-color: #116acc;
+  color: #ffffff;
+  text-align: left;
+  border-radius: 10px; /* Скругление углов таблицы */
+  overflow: hidden; /* Обрезка содержимого таблицы по границам */
+}
+
+thead tr {
+  background-color: #0052ff;
+}
+
+/* Скругление верхних углов таблицы */
+.history__table thead th:first-child {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.history__table thead th:last-child {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* Стиль ячеек заголовков таблицы */
+.history__table th,
+.history__table td {
+  padding: 21px 49px;
+}
+
+/* Стиль строк таблицы */
+.history__table tbody tr {
+  border-bottom: 1px solid #0052ff;
+}
+
+/* Стиль чередующихся строк таблицы */
+.history__table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+/* Стиль строки таблицы при наведении */
+.history__table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Стиль последней строки таблицы */
+.history__table tbody tr:last-of-type {
+  border-bottom: 2px solid #0052ff;
+}
+
+.error-account {
+  display: none;
+  padding-top: 5px;
+  text-align: center;
+  color: red;
+}
